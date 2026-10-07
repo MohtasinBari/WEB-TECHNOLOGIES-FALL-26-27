@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #222;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+.steps {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 10px;
+    margin-bottom: 3px;
+    font-size: 10px;
+}
+
+.steps span,
+.steps b {
+    margin-right: 25px;
+}
+
+.steps b {
+    color: #222;
+}
+
+
+
+
+h2 {
+    color: #e60000;
+    font-size: 13px;
+    margin: 8px 0 3px 0;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+    min-height: 19px;
+}
+
+.form-row > label:first-child {
+    width: 155px;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.form-row label span {
+    color: red;
+    margin-left: 2px;
+}
+
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 165px;
+    height: 17px;
+    border: 1px solid #aaa;
+    padding: 1px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #fff;
+}
+
+select {
+    width: 165px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4d9ed8;
+    box-shadow: 0 0 2px #4d9ed8;
+}
+
+
+
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.radio-group input {
+    margin: 0 2px 0 0;
+    vertical-align: middle;
+}
+
+.hint {
+    margin: -1px 0 2px 85px;
+    font-size: 9px;
+}
+
+.recurring {
+    display: flex;
+    align-items: center;
+}
+
+.recurring input {
+    margin: 0 4px 0 0;
+}
+
+.recurring label {
+    font-weight: normal;
+}
+
+.monthly {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+}
+
+.monthly input {
+    width: 42px;
+}
+
+
+
+.radio-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.radio-column label {
+    font-weight: normal;
+}
+
+.radio-column input {
+    margin: 0 3px 0 0;
+}
+
+
+
+
+.description {
+    margin: 0 0 4px 0;
+    font-size: 10px;
+}
+
+.checkbox-list {
+    margin-left: 158px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.checkbox-list label {
+    font-weight: normal;
+}
+
+.checkbox-list input,
+.newsletter input,
+.volunteer input {
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+
+
+
+
+.comments-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 7px;
+}
+
+.comments-section > label {
+    width: 155px;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 220px;
+    height: 48px;
+    border: 1px solid #aaa;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+}
+
+
+
+.contact-section {
+    display: flex;
+    margin-top: 5px;
+}
+
+.contact-section > label {
+    width: 155px;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.contact-section .checkbox-list {
+    margin-left: 0;
+}
+
+
+
+
+.newsletter {
+    margin-top: 8px;
+    margin-left: 155px;
+}
+
+.newsletter p {
+    margin: 0 0 4px 0;
+}
+
+.newsletter label {
+    display: block;
+    margin: 3px 0;
+}
+
+
+
+
+.volunteer {
+    margin: 8px 0 8px 0;
+}
+
+.volunteer label {
+    font-weight: normal;
+}
+
+
+
+.buttons {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.buttons input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 1px 12px;
+    margin: 0 3px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    background: linear-gradient(#fff, #ddd);
+    color: #222;
+}
+
+.buttons input:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+
+
+.secure {
+    font-size: 9px;
+    color: #555;
+    margin: 8px 0 3px 0;
+}
+
+.support {
+    font-size: 9px;
+    color: #777;
+    margin-top: 8px;
+}
+
